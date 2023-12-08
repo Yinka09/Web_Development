@@ -1,0 +1,93 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.btn1-primary {
+  background-color: white;
+  color: black;
+}
+
+.btn-outline-secondary {
+  border: white;
+  color: white;
+  border: 1px solid white;
+}
+
+.dog {
+  border-radius: 50%;
+  height: 100px;
+}
+
+#testimonial {
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+.pebbles {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.btn-outline-primary {
+  color: black;
+  border: 1px solid black;
+  border-radius: px;
+}
+
+.btn-primary {
+  background-color: #212529;
+  color: white;
+  border: none;
+}
+
+.target {
+  border: 1px solid black;
+}
+
+.target2 {
+  background-color: #212529;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: rgba(33, 37, 41, 0.8);
+}
+
+.btn-outline-primary:hover {
+  background-color: #212529;
+  border: none;
+}
+
+.but1:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.but2:hover {
+  background-color: white;
+  color: black;
+  border: none;
+}
